@@ -23,8 +23,8 @@ This application serves as a QR Code generator that provides flexibility in how 
 Clone this project into your working directory:
 
 ```shell script
-git clone <repository_url>
-cd <project_directory>
+git clone https://github.com/komiklol/qrCode-python.git
+cd qrCode-python
 ```
 
 ### 2. Set Up the Environment
@@ -56,7 +56,7 @@ pip install Flask qrcode[pil]
 Start the Flask server:
 
 ```shell script
-flask -app test_app.py run
+flask --app test_app.py run
 ```
 
 The Flask application will start and be accessible by default on `http://127.0.0.1:5000`.
